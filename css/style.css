@@ -121,12 +121,14 @@ a { color: inherit; text-decoration: none; }
 }
 #navbar.scrolled .nav-logo { color: var(--blue-deep); }
 
-.nav-logo-icon {
-  width: 36px; height: 36px;
-  background: linear-gradient(135deg, var(--blue-light), var(--green));
-  border-radius: 8px;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 1rem;
+.nav-logo-img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: var(--white);
+  padding: 2px;
+  flex-shrink: 0;
 }
 
 #nav-links {
@@ -390,32 +392,19 @@ a { color: inherit; text-decoration: none; }
 }
 
 .about-visual {
-  position: relative;
-  border-radius: 24px;
-  overflow: hidden;
-  aspect-ratio: 4/3;
-  background: linear-gradient(135deg, var(--blue-deep), var(--blue-mid), var(--green));
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: var(--shadow-lg);
+  padding: 24px;
 }
 
-.about-visual-inner {
-  text-align: center;
-  color: var(--white);
-  padding: 32px;
-}
-
-.about-visual-icon { font-size: 5rem; margin-bottom: 16px; }
-.about-visual-title {
-  font-size: 1.5rem;
-  font-weight: 800;
-  margin-bottom: 8px;
-}
-.about-visual-sub {
-  font-size: .9rem;
-  opacity: .75;
+.about-logo-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: contain;
+  drop-shadow: 0 8px 32px rgba(10,45,110,.15);
+  filter: drop-shadow(0 8px 32px rgba(10,45,110,.12));
 }
 
 /* ── Objectives ── */
@@ -758,10 +747,23 @@ footer {
 
 .footer-brand { }
 .footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 1.5rem;
   font-weight: 900;
   letter-spacing: -.02em;
   margin-bottom: 8px;
+}
+
+.footer-logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: var(--white);
+  padding: 2px;
+  flex-shrink: 0;
 }
 .footer-tagline {
   font-size: .875rem;
@@ -810,7 +812,7 @@ footer {
 /* ── Responsive ── */
 @media (max-width: 1024px) {
   #about .about-grid { grid-template-columns: 1fr; }
-  .about-visual { display: none; }
+  .about-logo-img { max-width: 280px; }
   #activities .act-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
