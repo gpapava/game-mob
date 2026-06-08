@@ -122,12 +122,12 @@ a { color: inherit; text-decoration: none; }
 #navbar.scrolled .nav-logo { color: var(--blue-deep); }
 
 .nav-logo-img {
-  width: 36px;
-  height: 36px;
+  width: 52px;
+  height: 52px;
   object-fit: contain;
-  border-radius: 6px;
+  border-radius: 8px;
   background: var(--white);
-  padding: 2px;
+  padding: 3px;
   flex-shrink: 0;
 }
 
