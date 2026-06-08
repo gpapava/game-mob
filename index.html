@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GAMEMOB – Game-Based Learning for Urban Mobility Education</title>
+  <meta name="description" content="GAMEMOB uses virtual reality and game-based learning to teach road safety and sustainable urban mobility to students aged 12–19 in RIS regions across Europe." />
+  <meta property="og:title" content="GAMEMOB – Urban Mobility Education" />
+  <meta property="og:description" content="An EU-funded project using games and VR to teach sustainable mobility to the next generation." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <div class="nav-logo-icon">🎮</div>
+        GAMEMOB
+      </a>
+
+      <ul id="nav-links">
+        <li><a href="#about"      data-i18n="nav_about">About</a></li>
+        <li><a href="#objectives" data-i18n="nav_objectives">Objectives</a></li>
+        <li><a href="#activities" data-i18n="nav_activities">Activities</a></li>
+        <li><a href="#partners"   data-i18n="nav_partners">Partners</a></li>
+        <li><a href="#news"       data-i18n="nav_news">News</a></li>
+        <li><a href="#contact"    data-i18n="nav_contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="el">EL</button>
+          <button class="lang-btn" data-lang="sr">SR</button>
+        </div>
+        <button id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-tag" data-i18n="hero_tag">Co-funded by the European Union · EIT Urban Mobility</div>
+      <h1 class="hero-title" data-i18n="hero_title">GAMEMOB</h1>
+      <p class="hero-subtitle" data-i18n="hero_subtitle">Game-Based Learning for Urban Mobility Education in RIS Regions</p>
+      <p class="hero-desc" data-i18n="hero_desc">Using virtual reality and game-based learning to teach road safety and sustainable mobility to the next generation.</p>
+      <div class="hero-actions">
+        <a href="#about" class="btn-primary" data-i18n="hero_cta_primary">Explore the Project</a>
+        <a href="#partners" class="btn-secondary" data-i18n="hero_cta_secondary">Meet the Partners</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-val" data-i18n="hero_stat1_val">18</span>
+          <span class="stat-label" data-i18n="hero_stat1_label">Months</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-val" data-i18n="hero_stat2_val">400+</span>
+          <span class="stat-label" data-i18n="hero_stat2_label">Students</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-val" data-i18n="hero_stat3_val">3</span>
+          <span class="stat-label" data-i18n="hero_stat3_label">Countries</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-val" data-i18n="hero_stat4_val">€78K</span>
+          <span class="stat-label" data-i18n="hero_stat4_label">Budget</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       ABOUT
+  ══════════════════════════════════════════ -->
+  <section id="about" class="section section-alt">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text fade-in">
+          <span class="section-tag" data-i18n="about_tag">About the Project</span>
+          <h2 class="section-title" data-i18n="about_title">Learning Mobility Through Play</h2>
+          <p data-i18n="about_desc1">GAMEMOB is an educational initiative that combines an interactive digital game, a Massive Open Online Course (MOOC), and real-life traffic education parks to teach road safety and sustainable mobility to primary and secondary school students aged 12–19.</p>
+          <p data-i18n="about_desc2">By empowering teachers with new tools and motivating students to learn through play, GAMEMOB helps cities promote safe and sustainable travel habits from an early age.</p>
+          <div class="about-meta">
+            <div class="meta-item">
+              <div class="meta-label" data-i18n="about_period_label">Project Period</div>
+              <div class="meta-val"   data-i18n="about_period_val">March 2026 – September 2027</div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-label" data-i18n="about_funding_label">EIT Funding</div>
+              <div class="meta-val"   data-i18n="about_funding_val">75% (€58,641)</div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-label" data-i18n="about_reach_label">Direct Reach</div>
+              <div class="meta-val"   data-i18n="about_reach_val">400 students · 50 educators · 10 municipalities</div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-label" data-i18n="about_regions_label">RIS Regions</div>
+              <div class="meta-val"   data-i18n="about_regions_val">Greece & Serbia</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual fade-in">
+          <div class="about-visual-inner">
+            <div class="about-visual-icon">🚦</div>
+            <div class="about-visual-title">Mobility Education</div>
+            <div class="about-visual-sub">Through Games &amp; VR</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       OBJECTIVES
+  ══════════════════════════════════════════ -->
+  <section id="objectives" class="section">
+    <div class="container">
+      <span class="section-tag" data-i18n="obj_tag">Project Objectives</span>
+      <h2 class="section-title" data-i18n="obj_title">What We Aim to Achieve</h2>
+      <div class="obj-grid">
+        <div class="obj-card fade-in">
+          <div class="obj-number">1</div>
+          <div class="obj-body">
+            <h3 data-i18n="obj1_title">Build a Blended Learning Framework</h3>
+            <p  data-i18n="obj1_desc">Develop a MOOC (5 modules) and an interactive serious game that combine digital learning with real-life mobility labs, providing accessible multilingual resources for schools and municipalities.</p>
+          </div>
+        </div>
+        <div class="obj-card fade-in">
+          <div class="obj-number">2</div>
+          <div class="obj-body">
+            <h3 data-i18n="obj2_title">Raise Awareness &amp; Skills</h3>
+            <p  data-i18n="obj2_desc">Improve sustainable mobility and safety knowledge among at least 400 students, 50 educators, and 10 municipalities across Greece and Serbia.</p>
+          </div>
+        </div>
+        <div class="obj-card fade-in">
+          <div class="obj-number">3</div>
+          <div class="obj-body">
+            <h3 data-i18n="obj3_title">Stimulate Youth Innovation</h3>
+            <p  data-i18n="obj3_desc">Organise at least two youth mobility hackathons where students design innovative solutions for local transport challenges, building entrepreneurial competences.</p>
+          </div>
+        </div>
+        <div class="obj-card fade-in">
+          <div class="obj-number">4</div>
+          <div class="obj-body">
+            <h3 data-i18n="obj4_title">Ensure Sustainability</h3>
+            <p  data-i18n="obj4_desc">Create an open-access GAMEMOB toolkit (MOOC + game + guidelines) in English, Greek, and Serbian, endorsed by local authorities for post-project continuation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       ACTIVITIES
+  ══════════════════════════════════════════ -->
+  <section id="activities" class="section section-alt">
+    <div class="container">
+      <span class="section-tag" data-i18n="act_tag">Activities</span>
+      <h2 class="section-title" data-i18n="act_title">How We Teach</h2>
+      <div class="act-grid">
+        <div class="act-card fade-in">
+          <div class="act-icon act-icon-1">📚</div>
+          <h3 data-i18n="act1_title">Online Course (MOOC)</h3>
+          <p  data-i18n="act1_desc">A multilingual, self-paced online course with 5 modules covering sustainable mobility basics, traffic safety, environmental impacts, active mobility, and innovation. ~10–12 hours per learner.</p>
+        </div>
+        <div class="act-card fade-in">
+          <div class="act-icon act-icon-2">🎮</div>
+          <h3 data-i18n="act2_title">Serious Game &amp; VR</h3>
+          <p  data-i18n="act2_desc">An immersive game with optional VR features placing learners in realistic urban mobility scenarios. Players face decision-making tasks that highlight safety and environmental consequences.</p>
+        </div>
+        <div class="act-card fade-in">
+          <div class="act-icon act-icon-3">🏙️</div>
+          <h3 data-i18n="act3_title">Local Mobility Labs</h3>
+          <p  data-i18n="act3_desc">Hands-on workshops in Traffic Education Parks and public spaces, combining simulations, role-play, and group activities to apply learning in real-life contexts.</p>
+        </div>
+        <div class="act-card fade-in">
+          <div class="act-icon act-icon-4">👩‍🏫</div>
+          <h3 data-i18n="act4_title">Educator Training</h3>
+          <p  data-i18n="act4_desc">Two-day training sessions for at least 50 educators and 10 municipal representatives, supported by online mentoring, to integrate GAMEMOB tools into regular teaching.</p>
+        </div>
+        <div class="act-card fade-in">
+          <div class="act-icon act-icon-5">💡</div>
+          <h3 data-i18n="act5_title">Youth Hackathons</h3>
+          <p  data-i18n="act5_desc">Two 2–3 day mobility innovation challenges where students develop prototypes and campaigns for local transport issues, mentored by educators, researchers, and municipal experts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       PARTNERS
+  ══════════════════════════════════════════ -->
+  <section id="partners" class="section">
+    <div class="container">
+      <span class="section-tag" data-i18n="partners_tag">Consortium</span>
+      <h2 class="section-title" data-i18n="partners_title">Our Partners</h2>
+      <div class="partners-grid">
+
+        <div class="partner-card fade-in">
+          <span class="partner-badge partner-badge-lead" data-i18n="partner1_role">Lead Partner & Coordinator</span>
+          <div class="partner-avatar partner-avatar-1">AK</div>
+          <div class="partner-name" data-i18n="partner1_name">AKETH</div>
+          <div class="partner-full"    data-i18n="partner1_full">Anaptyxiako Kentro Thessalias</div>
+          <div class="partner-country" data-i18n="partner1_country">Trikala, Greece</div>
+          <p class="partner-desc"      data-i18n="partner1_desc">A non-profit VET provider founded in 2004 with 20+ years of expertise in game-based learning, VR/AR development, e-learning, and EU project management.</p>
+        </div>
+
+        <div class="partner-card fade-in">
+          <span class="partner-badge partner-badge-sci" data-i18n="partner2_role">Scientific & Pedagogical Partner</span>
+          <div class="partner-avatar partner-avatar-2">UNI</div>
+          <div class="partner-name"    data-i18n="partner2_name">Univ. of Niš</div>
+          <div class="partner-full"    data-i18n="partner2_full">University of Niš</div>
+          <div class="partner-country" data-i18n="partner2_country">Niš, Serbia</div>
+          <p class="partner-desc"      data-i18n="partner2_desc">A leading academic institution with deep expertise in AI, transport systems, sustainable urban development, and digital pedagogy. Leads curriculum co-design and impact evaluation.</p>
+        </div>
+
+        <div class="partner-card fade-in">
+          <span class="partner-badge partner-badge-impl" data-i18n="partner3_role">Implementation Partner</span>
+          <div class="partner-avatar partner-avatar-3">DP</div>
+          <div class="partner-name"    data-i18n="partner3_name">DPET</div>
+          <div class="partner-full"    data-i18n="partner3_full">Directorate of Primary Education of Trikala</div>
+          <div class="partner-country" data-i18n="partner3_country">Trikala, Greece</div>
+          <p class="partner-desc"      data-i18n="partner3_desc">A regional public authority overseeing 100+ primary schools in Trikala. Provides direct access to schools, teachers, and students, and coordinates pilot activities and local lab engagement.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       NEWS
+  ══════════════════════════════════════════ -->
+  <section id="news" class="section section-alt">
+    <div class="container">
+      <span class="section-tag" data-i18n="news_tag">Latest News</span>
+      <h2 class="section-title" data-i18n="news_title">Project Updates</h2>
+      <div class="news-grid">
+        <div class="news-card fade-in">
+          <div class="news-card-header news-card-header-1">🚀</div>
+          <div class="news-card-body">
+            <div class="news-card-date">March 2026</div>
+            <h3 class="news-card-title" data-i18n="news_kickoff_title">Project Kick-off — Coming March 2026</h3>
+            <p  class="news-card-desc"  data-i18n="news_kickoff_desc">The GAMEMOB consortium will hold its kick-off meeting in Trikala, Greece, setting the strategic direction and finalising the work plan.</p>
+          </div>
+        </div>
+        <div class="news-card fade-in">
+          <div class="news-card-header news-card-header-2">📖</div>
+          <div class="news-card-body">
+            <div class="news-card-date">June 2026</div>
+            <h3 class="news-card-title" data-i18n="news_mooc_title">MOOC Development Begins</h3>
+            <p  class="news-card-desc"  data-i18n="news_mooc_desc">Following the co-design phase, AKETH will begin development of the five-module multilingual MOOC in June 2026.</p>
+          </div>
+        </div>
+        <div class="news-card fade-in">
+          <div class="news-card-header news-card-header-3">🏫</div>
+          <div class="news-card-body">
+            <div class="news-card-date">November 2026</div>
+            <h3 class="news-card-title" data-i18n="news_pilot_title">Pilot Activities in Schools</h3>
+            <p  class="news-card-desc"  data-i18n="news_pilot_desc">Pilot sessions combining the MOOC, serious game, and local lab workshops will run in schools across Greece and Serbia from November 2026.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       CONTACT
+  ══════════════════════════════════════════ -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info fade-in">
+          <span class="section-tag" data-i18n="contact_tag">Get in Touch</span>
+          <h2 class="section-title" data-i18n="contact_title">Contact Us</h2>
+          <p class="section-lead" data-i18n="contact_desc">Interested in the project, partnership opportunities, or want to learn more about GAMEMOB? Reach out to the project coordinator.</p>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-item-icon">🏢</div>
+              <div>
+                <div class="contact-item-label">Organisation</div>
+                <div class="contact-item-val" data-i18n="contact_org">AKETH – Developmental Centre of Thessaly</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">✉️</div>
+              <div>
+                <div class="contact-item-label" data-i18n="contact_email_label">Email</div>
+                <div class="contact-item-val"><a href="mailto:info@aketh.eu">info@aketh.eu</a></div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">📍</div>
+              <div>
+                <div class="contact-item-label" data-i18n="contact_location_label">Location</div>
+                <div class="contact-item-val" data-i18n="contact_location_val">Trikala, Greece</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">🌐</div>
+              <div>
+                <div class="contact-item-label" data-i18n="contact_website_label">Website</div>
+                <div class="contact-item-val"><a href="https://aketh.eu" target="_blank" rel="noopener">aketh.eu</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="eu-box fade-in">
+          <div class="eu-box-title">⭐ EU-Funded Project</div>
+          <p class="eu-box-desc">GAMEMOB is co-funded by the European Union through EIT Urban Mobility as part of the RIS Education Open Call 2026. The project contributes to Strategic Objective SO2 – Close the Knowledge Gap of the EIT Urban Mobility Strategic Agenda.</p>
+          <div class="eu-flags">
+            <div class="eu-flag-item">🇪🇺 European Union</div>
+            <div class="eu-flag-item">🚇 EIT Urban Mobility</div>
+            <div class="eu-flag-item">🇬🇷 Greece</div>
+            <div class="eu-flag-item">🇷🇸 Serbia</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">🎮 GAMEMOB</div>
+          <p class="footer-tagline">Game-Based Learning for Urban Mobility Education in RIS Regions</p>
+        </div>
+        <div class="footer-links">
+          <a href="#about"      data-i18n="nav_about">About</a>
+          <a href="#objectives" data-i18n="nav_objectives">Objectives</a>
+          <a href="#activities" data-i18n="nav_activities">Activities</a>
+          <a href="#partners"   data-i18n="nav_partners">Partners</a>
+          <a href="#news"       data-i18n="nav_news">News</a>
+          <a href="#contact"    data-i18n="nav_contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-funded"    data-i18n="footer_funded">Co-funded by the European Union through EIT Urban Mobility · RIS Education Open Call 2026</p>
+        <p class="footer-rights"    data-i18n="footer_rights">© 2026 GAMEMOB Consortium. All rights reserved.</p>
+        <p class="footer-disclaimer" data-i18n="footer_disclaimer">Views and opinions expressed are those of the project partners only and do not necessarily reflect those of the European Union or EIT Urban Mobility.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
