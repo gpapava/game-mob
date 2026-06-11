@@ -18,7 +18,7 @@ const translations = {
     hero_stat2_val: "400+",
     hero_stat2_label: "Students",
     hero_stat3_val: "3",
-    hero_stat3_label: "Countries",
+    hero_stat3_label: "Languages",
     hero_stat4_val: "€78K",
     hero_stat4_label: "Budget",
 
@@ -61,6 +61,7 @@ const translations = {
 
     partners_tag: "Consortium",
     partners_title: "Our Partners",
+    partners_associated_tag: "Associated Partners",
     partner1_name: "INEKA",
     partner1_full: "Institute of Education and Innovation",
     partner1_country: "Trikala, Greece",
@@ -123,7 +124,7 @@ const translations = {
     hero_stat2_val: "400+",
     hero_stat2_label: "Μαθητές",
     hero_stat3_val: "3",
-    hero_stat3_label: "Χώρες",
+    hero_stat3_label: "Γλώσσες",
     hero_stat4_val: "€78K",
     hero_stat4_label: "Προϋπολογισμός",
 
@@ -166,6 +167,7 @@ const translations = {
 
     partners_tag: "Κοινοπραξία",
     partners_title: "Οι Εταίροι μας",
+    partners_associated_tag: "Συνδεδεμένοι Εταίροι",
     partner1_name: "ΙΝΕΚΑ",
     partner1_full: "Ινστιτούτο Εκπαίδευσης και Καινοτομίας",
     partner1_country: "Τρίκαλα, Ελλάδα",
@@ -228,7 +230,7 @@ const translations = {
     hero_stat2_val: "400+",
     hero_stat2_label: "Učenika",
     hero_stat3_val: "3",
-    hero_stat3_label: "Zemlje",
+    hero_stat3_label: "Jezici",
     hero_stat4_val: "€78K",
     hero_stat4_label: "Budžet",
 
@@ -271,6 +273,7 @@ const translations = {
 
     partners_tag: "Konzorcijum",
     partners_title: "Naši partneri",
+    partners_associated_tag: "Pridruženi partneri",
     partner1_name: "INEKA",
     partner1_full: "Institut za obrazovanje i inovacije",
     partner1_country: "Trikala, Grčka",

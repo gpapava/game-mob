@@ -494,6 +494,41 @@ a { color: inherit; text-decoration: none; }
   margin-top: 48px;
 }
 
+.partner-card-wide {
+  margin-top: 48px;
+}
+.partner-wide-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  margin-top: 12px;
+}
+.partner-wide-body .partner-avatar {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  font-size: 1.8rem;
+  border-radius: 20px;
+}
+.partner-wide-info { flex: 1; }
+
+.associated-section { margin-top: 40px; }
+.associated-label {
+  font-size: .75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--text-muted);
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 20px;
+}
+.associated-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
 .partner-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -845,6 +880,8 @@ footer {
   #objectives .obj-grid { grid-template-columns: 1fr; }
   #activities .act-grid { grid-template-columns: 1fr; }
   #partners .partners-grid { grid-template-columns: 1fr; }
+  .associated-grid { grid-template-columns: 1fr; }
+  .partner-wide-body { flex-direction: column; }
   #news .news-grid { grid-template-columns: 1fr; }
   #contact .contact-grid { grid-template-columns: 1fr; }
 
